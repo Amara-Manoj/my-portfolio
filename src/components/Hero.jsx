@@ -17,7 +17,7 @@ const Hero = () => {
           className="md:flex-1 max-w-2xl text-center md:text-left mb-12 md:mb-0"
         >
           <p className="text-accent font-mono text-lg">Hi, my name is</p>
-          <h1 className="text-4xl lg:text-6xl font-bold text-lightest-slate mt-2 whitespace-nowrap">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-lightest-slate mt-2 whitespace-nowrap">
             Amara Manoj NagaSai Venkat
           </h1>
           <h2 className="text-3xl lg:text-5xl font-bold text-slate mt-2">
