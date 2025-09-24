@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import resumePDF from '../assets/Amara_Manoj_Resume.pdf';
+// import resumePDF from '../assets/Amara_Manoj_Resume.pdf';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href={resumePDF}
+            href="/Amara_Manoj_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             // CHANGE: Added the 'download' attribute to force a download
