@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skillsData = {
-  "Languages & Frameworks": ["Java", "JavaScript", "Node.js", "SQL", "REST APIs"],
-  "Cloud & DevOps": ["AWS (EC2, S3)", "Docker", "Kubernetes", "Git", "CI/CD", "Agile"],
-  "Monitoring & Observability": ["Grafana", "Linux", "cURL", "Shell Scripting", "JIRA"],
-  "Databases": ["MySQL"],
-  "API & Integration": ["RESTful APIs", "API Security", "Postman"],
-  "Practices": ["Incident Management", "Root Cause Analysis", "Production Support", "Automation"]
+
+  "Backend & Application Development": ["Node.js", "Express", "React", "JavaScript", "REST APIs", "Microservices", "Workflow Automation"],
+  "Databases & Caching": ["MySQL", "Redis", "Database Design", "Query Optimization"],
+  "Cloud & DevOps": ["AWS (EC2, S3)", "Docker", "Kubernetes", "CI/CD Pipelines"],
+  "Monitoring & Observability": ["Grafana", "Logging", "Performance Metrics", "Production Issue Tracking"],
+  "Practices & Methodologies": ["End-to-end Feature Development", "Automation", "Scalability", "Production Support"],
 };
 
 const SkillCard = ({ title, skills }) => (
@@ -29,7 +29,7 @@ const SkillCard = ({ title, skills }) => (
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 container mx-auto px-6">
+    <section id="skills" className="py-20 container mx-auto px-6 scroll-mt-24">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

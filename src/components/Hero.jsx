@@ -9,7 +9,6 @@ const Hero = () => {
     <section id="about" className="min-h-screen flex items-center container mx-auto px-6 scroll-mt-24">
       <div className="flex flex-col md:flex-row items-center justify-center w-full gap-x-12">
 
-        {/* Text Content */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -21,10 +20,10 @@ const Hero = () => {
             Amara Manoj NagaSai Venkat
           </h1>
           <h2 className="text-3xl lg:text-5xl font-bold text-slate mt-2">
-            I design and build reliable, scalable systems that power high-traffic applications.
+            I build and maintain payment and telecom platform services.
           </h2>
           <p className="mt-6 text-slate mx-auto md:mx-0">
-            I’m a passionate software engineer with 2 years of experience specializing in Application and Backend development. My focus is on creating robust payment and telecom Application/Solutions that perform seamlessly under pressure. I’m dedicated to balancing feature innovation with performance optimization, observability, and incident response to ensure smooth and scalable operations.
+            I work extensively with Node.js, Express, React, and SQL, and use tools like Grafana to monitor and optimize application performance. My focus is on delivering reliable backend services, improving API responsiveness, and ensuring smooth production deployments.
           </p>
           <div className="mt-8 flex items-center justify-center md:justify-start space-x-4">
             <Link
@@ -46,7 +45,6 @@ const Hero = () => {
           </div>
         </motion.div>
 
-        {/* Image Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}

@@ -6,27 +6,29 @@ const experienceData = [
     role: "Product Development Engineer",
     company: "Comviva",
     period: "Aug 2023 – Present",
-    duties: [
-      "Architected and integrated mission-critical APIs for high-traffic telecom wallet/payment platforms.",
-      "Optimized backend workflows, significantly reducing system downtime by 50%.",
-      "Provided L3 production support, debugging critical incidents to ensure platform stability."
+     duties: [
+      "Led backend development for telecom wallets and payment platforms using Node.js & Express, improving API response times by 30%.",
+      "Built and validated end-to-end application workflows, ensuring seamless production deployments.",
+      "Implemented performance optimizations, resolving 95% of production incidents within SLA and cutting downtime by 25%.",
+      "Delivered NRT 2.0 and ACS Checkout features for African markets, ensuring scalable and reliable deployments.",
     ]
   },
   {
     role: "Product Development Intern",
-    company: "Comviva",
+    company: "Comviva, Bangalore",
     period: "Feb 2023 – Aug 2023",
     duties: [
-      "Built real-time monitoring dashboards using Grafana and Prometheus.",
-      "Assisted in incident resolution and performed detailed root cause analysis.",
-      "Conducted backend validation and testing to improve payment transaction reliability."
+      "Developed backend modules and APIs using Node.js, ensuring data consistency and seamless frontend integration.",
+      "Designed Grafana dashboards to monitor application metrics, transaction errors, and throughput.",
+      "Assisted in production issue resolution and performed root cause analysis, improving system reliability.",
+      "Supported deployment of new features for telecom wallets, validating backend workflows to minimize post-release issues.",
     ]
   }
 ];
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 container mx-auto px-6">
+    <section id="experience" className="py-20 container mx-auto px-6 scroll-mt-24">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
