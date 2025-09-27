@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import projectAirtelImage from '../assets/project-airtel.jpg';
+import projectAirtelImage from '../assets/project-airtel.png';
 // You will need to add an image for your new project in the `public` folder
 // For now, I'll reuse the same image as a placeholder
 import projectTestPlatformImage from '../assets/project-airtel.png'; 
